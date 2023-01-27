@@ -1,0 +1,10 @@
+kubectl --version
+kubectl get nodes
+clear
+kubeadm version
+kubectl apply -f runsc-runtimeclass.yaml
+kubectl get runtimeclasses
+
+kubectl apply -f kuard-pod-runtimeclass.yaml 
+kubectl exec -it kuard -- dmesg
+kubectl get runtimeclasses
