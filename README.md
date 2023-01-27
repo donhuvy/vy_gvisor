@@ -37,6 +37,8 @@ $ kubectl version -o json
     "platform": "linux/amd64"
   }
 }
+
+
 $ kubeadm version -o json
 {
   "clientVersion": {
