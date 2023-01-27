@@ -11,7 +11,7 @@ Related links
 
 Environment
 
-```
+```bash
 $ kubectl version -o json
 {
   "clientVersion": {
