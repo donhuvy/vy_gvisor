@@ -55,3 +55,8 @@ $ kubeadm version -o json
 }
 $ 
 ```
+
+```
+kubectl get pods -n kube-system
+```
+
